@@ -18,3 +18,7 @@ auto.znacka = 'Škoda';
 let majitelka = `${auto.majitel.jmeno} ${auto.majitel.prijmeni}`;
 let znacka = auto.znacka;
 let spz = auto.spz;
+
+document.getElementById('majitelka').innerHTML = majitelka;
+document.getElementById('znacka').innerHTML = znacka;
+document.getElementById('spz').innerHTML = spz;
